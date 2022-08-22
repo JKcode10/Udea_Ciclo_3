@@ -1,2 +1,2 @@
 poniendo a prueba la rama
-cabios desde el repositorio remoto
+cambios desde el repositorio remoto
