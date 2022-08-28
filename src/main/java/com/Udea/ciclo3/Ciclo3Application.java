@@ -18,7 +18,7 @@ public class Ciclo3Application {
 
 	@GetMapping("/test")
 	public String test(){
-		Empresa empresa = new Empresa("BanTic","calle la jeta","32245535553","12453255333");
+		Empresa empresa = new Empresa("BanTic","calle 13b #3a - 47 ","32245535553","12453255333");
 		empresa.setNombre("Crews Bank");
 		return empresa.getNombre();
 
