@@ -24,7 +24,7 @@ public class Ciclo3Application {
 
 
 	}
-	public statMoic void main(String[] args) {
+	public void main(String[] args) {
 		SpringApplication.run(Ciclo3Application.class, args);
 	}
 
