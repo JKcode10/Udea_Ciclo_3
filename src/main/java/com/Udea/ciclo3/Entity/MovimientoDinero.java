@@ -1,4 +1,4 @@
-package com.Udea.ciclo3.Entidades;
+package com.Udea.ciclo3.Entity;
 
 import javax.persistence.*;
 
