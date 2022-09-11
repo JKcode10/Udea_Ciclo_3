@@ -1,6 +1,6 @@
 package com.Udea.ciclo3;
 
-import com.Udea.ciclo3.Entidades.Empresa;
+import com.Udea.ciclo3.Entity.Empresa;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
@@ -21,10 +21,8 @@ public class Ciclo3Application {
 		Empresa empresa = new Empresa("BanTic","calle 13b #3a - 47 ","32245535553","12453255333");
 		empresa.setNombre("Crews Bank");
 		return empresa.getNombre();
-
-
 	}
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		SpringApplication.run(Ciclo3Application.class, args);
 	}
 
